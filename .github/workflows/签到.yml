@@ -1,9 +1,9 @@
 name: 签到
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '10 01 * * *'
-      timezone: "Asia/Shanghai"
+#  schedule:
+#    - cron: '10 01 * * *'
+#      timezone: "Asia/Shanghai"
 permissions:
   contents: read
   actions: write
